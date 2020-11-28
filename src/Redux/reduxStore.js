@@ -3,13 +3,15 @@ import authReducer from "./authReducer";
 
 import startReducer from "./startReducer";
 import authorMainReducer from "./authorMainReducer";
+import authorApplicationReducer from "./authorApplicationsReducer";
 
 
 let reducers = combineReducers(
     {
         startPage: startReducer,
         authPage: authReducer,
-        authorMain:authorMainReducer
+        authorMain:authorMainReducer,
+        authorApplication: authorApplicationReducer
     }
 );
 let store = createStore(reducers);

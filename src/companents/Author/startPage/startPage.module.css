@@ -1,4 +1,10 @@
 .startPage {
     background-color: #c0d0e9;
     padding: 10px;
+
+}
+.startPage h3 {
+    padding: 0; margin: 0px;
+
+    font-weight: normal;
 }

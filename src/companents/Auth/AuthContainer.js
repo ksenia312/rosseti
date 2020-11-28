@@ -1,17 +1,14 @@
 
 import connect from "react-redux/lib/connect/connect";
 import Auth from "./Auth";
-import {
-    sendLogPasActionCreator,
-    updateLoginActionCreator,
-    updatePasswordActionCreator
-} from "../../Redux/authorMainReducer";
+import {sendLogPasActionCreator, updateLoginActionCreator, updatePasswordActionCreator} from "../../Redux/authReducer";
+
 
 
 let mapStateToProps = (state) => {
     return {
-        newLoginText: state.authorMain.newLoginText,
-        newPasswordText:state.authorMain.newPasswordText
+        newLoginText: state.authPage.newLoginText,
+        newPasswordText:state.authPage.newPasswordText
     }
 }
 let mapDispatchToProps = (dispatch) => {

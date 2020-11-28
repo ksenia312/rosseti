@@ -1,0 +1,28 @@
+.nav {
+
+    background-color: #c2cfe7;
+    min-height: 300px;
+    padding: 10px;
+
+
+
+}
+.item {
+    border-bottom: 1px solid #afa9eb;
+    width: 90%;
+
+}
+
+.item a {
+
+    text-decoration: none;
+
+    color:#282c34;
+
+
+}
+
+.item a:active, .item a:focus {
+
+    color: #040409;
+}

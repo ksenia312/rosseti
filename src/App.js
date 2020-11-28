@@ -5,6 +5,10 @@ import Author from "./companents/Author/Author";
 import {Redirect, Route, Switch} from "react-router-dom";
 import AuthContainer from "./companents/Auth/AuthContainer";
 import PersonList from "./proposals";
+import MainAuthContainer from "./companents/Author/MainAuth/MainAuthContainer";
+import ApplicationContainer from "./companents/Author/Applications/ApplicationContainer";
+import StartPage from "./companents/Author/startPage/startPage";
+import Bank from "./companents/Author/bank/Bank";
 
 
 
@@ -27,6 +31,7 @@ const App = (props) => {
                 <Redirect from='/' to='/start'/>
 
             </Switch>
+
 
         </div>
 

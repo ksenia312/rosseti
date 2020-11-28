@@ -1,25 +1,28 @@
 import React from 'react';
 import style from "./Author.module.css"
-import HeaderAuth from "./HeaderAuth/HeaderAuth";
+import NavAuth from "./NavAuth/NavAuth";
 import {Redirect, Route, Switch} from "react-router-dom";
 import MainAuthContainer from "./MainAuth/MainAuthContainer";
-import Applications from "./Applications/Application";
-
+import ApplicationContainer from "./Applications/ApplicationContainer";
 import StartPage from "./startPage/startPage";
+import Bank from "./bank/Bank";
+
 
 const Author = (props) => {
 
     return (
         <div className={style.author}>
-            <HeaderAuth/>
+            <NavAuth/>
             <Switch>
                 <Route path='/author/myapplication'
                        render={() => <MainAuthContainer/>}
                 />
                 <Route path='/author/applications'
-                       render={() => <Applications/>}/>
+                       render={() => <ApplicationContainer/>}/>
                 <Route path='/author/authorstart'
                        render={() => <StartPage/>}/>
+                <Route path='/author/bank'
+                       render={() => <Bank/>}/>
                 <Redirect from='/author/' to='/author/authorstart'/>
             </Switch>
         </div>

@@ -6,7 +6,7 @@ const StartPage = (props) => {
 
     return (
         <div className={style.startPage}>
-
+          <h3>Последняя успешно внедренная заявка.</h3>
         </div>
 
 

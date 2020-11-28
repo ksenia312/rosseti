@@ -1,0 +1,31 @@
+.main {
+    background-color: #c0d0e9;
+    padding: 10px;
+}
+.main h4 {
+    padding: 0; margin: 0;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.main textarea {
+    width: 80%;
+    border: none;
+    resize: none;
+    height: 300px;
+    overflow: auto;
+}
+.main textarea:focus, textarea:active {
+    outline: none;
+}
+.main button {
+    padding: 9px;
+    width: 180px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    color: #282c34;
+
+}
+.but {
+    text-align: right;
+}

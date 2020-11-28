@@ -21,14 +21,14 @@ const Auth = (props) => {
             <form className={style.form}>
                 <h3>Логин</h3>
                 <input
-                    placeholder="Enter login"
+                    placeholder="Введите логин"
                     ref={newLoginElement}
                     value={props.newLoginText}
                     onChange={onLoginChange}
                 />
                 <h3>Пароль</h3>
                 <input
-                    placeholder="Enter password"
+                    placeholder="Введите пароль"
                     type="password"
                     ref={newPasswordElement}
                     value={props.newPasswordText}
@@ -37,7 +37,7 @@ const Auth = (props) => {
                 <div>
                     <NavLink to='/author/' activeClassName={style.active}>
                         <button onClick={sendLogPas}
-                        >Send
+                        >Отправить
                         </button>
                     </NavLink>
                 </div>

@@ -7,9 +7,8 @@ let initialState = {
         {id:4, text:'text'},
         {id:5, text:'fdsfsd'},
         {id:6, text:'sdfdsf'}
-
-
-    ]
+    ],
+    proposals: []
 }
 
 const authorApplicationReducer = (state=initialState, action) => {

@@ -4,7 +4,7 @@ import Applications from "./Application";
 
 
 let mapStateToProps = (state) => {
-    debugger
+
     return {
 
         application: state.authorApplication.application,

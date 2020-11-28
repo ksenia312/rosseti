@@ -12,3 +12,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/*
+@media screen and (max-width: 1280px) {
+  body {background-color: #040409}
+}
+
+@media screen and (max-width: 480px) {
+  body {background-color: #ecc30c}
+}*/

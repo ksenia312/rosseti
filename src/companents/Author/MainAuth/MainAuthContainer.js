@@ -1,6 +1,6 @@
 import React from 'react';
 import connect from "react-redux/lib/connect/connect";
-import {updateNewHolderActionCreator} from "../../../Redux/authorMainReducer";
+import {updateNewHolder1ActionCreator, updateNewHolderActionCreator} from "../../../Redux/authorMainReducer";
 import MainAuth from "./MainAuth";
 
 let mapStateToProps = (state) => {
@@ -13,6 +13,11 @@ let mapDispatchToProps = (dispatch) => {
         updateNewHolder: (text) => {
 
             dispatch(updateNewHolderActionCreator(text));
+
+        },
+        updateNewHolder1: (text) => {
+
+            dispatch(updateNewHolder1ActionCreator(text));
 
         }
     }

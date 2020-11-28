@@ -6,10 +6,13 @@
 
 
 
+
 }
 .item {
     border-bottom: 1px solid #afa9eb;
     width: 90%;
+    padding: 7px;
+    font-size: 1.1em;
 
 }
 
@@ -17,12 +20,18 @@
 
     text-decoration: none;
 
-    color:#282c34;
+    color: #51515d;
 
 
 }
 
 .item a:active, .item a:focus {
 
-    color: #040409;
+    color: #000000;
+}
+@media screen and (max-width: 480px) {
+    .nav {
+        width: 100%;
+        margin: 0;
+        padding: 10px;}
 }

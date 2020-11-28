@@ -2,3 +2,34 @@
     background-color: #c0d0e9;
     padding: 10px;
 }
+
+.bank p {
+    display: inline-block;
+}
+
+.bank h3 {
+    padding: 0;
+    margin: 0px;
+
+    font-weight: normal;
+}
+
+.bank h2 {
+    padding: 0;
+    margin: 0px;
+
+    font-weight: normal;
+}
+
+.bank li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bank ul {
+    list-style-type: none;
+    padding: 10px;
+    border: 1px solid #838d9c;
+
+}
